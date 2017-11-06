@@ -27,12 +27,6 @@
 #endif // GTMAPPAUTH_USER_IMPORTS
 #import "GTMTVServiceConfiguration.h"
 
-#if TARGET_OS_IOS
-#import "OIDURLQueryComponent+IOS.h"
-#elif TARGET_OS_MAC
-#import "OIDURLQueryComponent+Mac.h"
-#endif
-
 @implementation GTMTVAuthorizationRequest
 
 - (instancetype)
